@@ -20,6 +20,23 @@
 {#if pdfPromise}
   <JoinedPDFReader {pdfPromise} />
 {:else}
+  <h1>JOIN PDF</h1>
+  <p>Join PDF documents by loading into the webpage and then 'Save as PDF'.</p>
+  <h3>Notes</h3>
+  <ul>
+    <li>No data is shared. The joining is performed in the local client.</li>
+    <li>
+      Browsers and operating systems by default typically print webpages with
+      headers and footers. May wish to disable in print options.
+    </li>
+    <li>Results in larger file sizes than the original documents.</li>
+  </ul>
+  <p>
+    <a href="https://github.com/jimvella/join-pdf"
+      >https://github.com/jimvella/join-pdf</a
+    >
+  </p>
+
   <div>
     <input type="file" accept="application/pdf" bind:files />
   </div>

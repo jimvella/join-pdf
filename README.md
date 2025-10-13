@@ -1,18 +1,10 @@
-# sv
+# join-pdf
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+https://jimvella.github.io/join-pdf/
 
-## Creating a project
+Join PDF documents by loading into the webpage and then 'Save as PDF'.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+Note that printing the webpage rather than concatenating at the PDF format level avoids PDF interoperability issues, however is does result in a significantly larger file size since the process effectively converts the PDF data into images.
 
 ## Developing
 
@@ -35,4 +27,8 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Deploying
+
+Deployed via GitHub pages https://github.com/jimvella/join-pdf/deployments
+
+Running the build step updates the files in /docs. Commit the changes and push to GitHib to deploy.
