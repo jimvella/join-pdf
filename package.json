@@ -21,6 +21,7 @@
 		"vite": "^7.1.7"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-static": "^3.0.10"
+		"@sveltejs/adapter-static": "^3.0.10",
+		"pdfjs-dist": "^5.4.296"
 	}
 }
