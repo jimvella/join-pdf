@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/z0a1Ts6W.js";import{f as p,a as t,n as e}from"../chunks/DSD8L5LZ.js";var r=p('<h1>JOIN-PDF</h1> <a href="https://github.com/jimvella/join-pdf">github.com/jimvella/join-pdf</a> <p>A collection of pdf macros</p> <ul><li><a href="/prepend">Batch prepend</a></li></ul>',1);function f(o){var a=r();e(6),t(o,a)}export{f as component};

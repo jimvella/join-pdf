@@ -3,5 +3,5 @@
 <p>A collection of pdf macros</p>
 
 <ul>
-  <li><a href="/prepend">Batch prepend</a></li>
+  <li><a href="prepend">Batch prepend</a></li>
 </ul>
