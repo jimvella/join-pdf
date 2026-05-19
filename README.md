@@ -32,3 +32,9 @@ You can preview the production build with `npm run preview`.
 Deployed via GitHub pages https://github.com/jimvella/join-pdf/deployments
 
 Running the build step updates the files in /docs. Commit the changes and push to GitHib to deploy.
+
+## Similar Products
+https://gopdf.run
+https://www.aservus.com/
+https://offlinecompress.com/pdf-tools.html
+https://vault-tools.com/pdf/
