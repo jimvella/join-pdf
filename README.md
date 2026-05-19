@@ -34,7 +34,10 @@ Deployed via GitHub pages https://github.com/jimvella/join-pdf/deployments
 Running the build step updates the files in /docs. Commit the changes and push to GitHib to deploy.
 
 ## Similar Products
-https://gopdf.run
-https://www.aservus.com/
-https://offlinecompress.com/pdf-tools.html
-https://vault-tools.com/pdf/
+- https://gopdf.run
+- https://www.aservus.com/
+- https://offlinecompress.com/pdf-tools.html
+- https://vault-tools.com/pdf/
+
+### Analysis
+The similar tools are built on WASM to allow the browser to run compiled Go. pdf-js is native javascript, so this architecture is potentially more resilient.
